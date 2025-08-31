@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа №2 г. Истра - Современный образовательный портал</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Disclaimer Modal -->
+    <div class="disclaimer-modal" id="disclaimerModal">
+        <div class="disclaimer-content">
+            <div class="disclaimer-icon">
+                <i class="fas fa-exclamation-circle"></i>
+            </div>
+            <h2 class="disclaimer-title">Внимание!</h2>
+            <p class="disclaimer-text">
+                Данный сайт является демонстрационным проектом и <strong>не является официальным сайтом</strong> Муниципального общеобразовательного учреждения Средней общеобразовательной школы №2 г. Истра.<br><br>
+                Все права на оригинальный контент и информацию принадлежат МОУ СОШ №2 г. Истра. Официальный сайт школы доступен по адресу: <strong>https://schkola2-istra.edumsko.ru/</strong>
+            </p>
+            
+            <div class="author-info">
+                <p><strong>Автор проекта:</strong> Широков Тимофей Павлович</p>
+                <p><strong>Ученик 8Б класса</strong> МОУ СОШ №2 г. Истра</p>
+                <p>Этот сайт создан в рамках учебного проекта</p>
+            </div>
+            
+            <div class="disclaimer-buttons">
+                <button class="disclaimer-btn disclaimer-agree" id="agreeButton">Я понимаю, продолжить</button>
+                <button class="disclaimer-btn disclaimer-leave" id="leaveButton">Перейти на официальный сайт</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="logo-text">
+                        <div class="logo-title">Школа №2</div>
+                        <div class="logo-subtitle">г. Истра | Демо-сайт</div>
+                    </div>
+                </div>
+                
+                <nav>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О школе</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Расписание</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Современное образование для будущего ваших детей</h1>
+                <p>Мы создаем условия для раскрытия потенциала каждого ученика, обеспечивая качественное образование в современной цифровой среде</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn">Узнать больше</a>
+                    <a href="#" class="btn btn-outline">Записаться на экскурсию</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нашу школу</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Квалифицированные преподаватели</h3>
+                    <p>Наши учителя регулярно проходят повышение квалификации и используют современные методики обучения</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Современное оборудование</h3>
+                    <p>Компьютерные классы, интерактивные доски и лаборатории с новейшим оборудованием</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Высокие результаты</h3>
+                    <p>Наши ученики регулярно побеждают на олимпиадах и показывают excellent результаты на экзаменах</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news">
+        <div class="container">
+            <h2 class="section-title">Последние новости</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1584697964358-3e14ca57658b?ixlib=rb-4.0.3" alt="Новость" class="news-image">
+                    <div class="news-content">
+                        <span class="news-date"><i class="far fa-calendar-alt"></i> 15 сентября 2023</span>
+                        <h3>День открытых дверей</h3>
+                        <p>Приглашаем всех желающих на день открытых дверей, который состоится 25 сентября в 10:00</p>
+                        <a href="#" class="btn" style="margin-top: 15px; padding: 8px 20px;">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3" alt="Новость" class="news-image">
+                    <div class="news-content">
+                        <span class="news-date"><i class="far fa-calendar-alt"></i> 10 сентября 2023</span>
+                        <h3>Начало учебного года</h3>
+                        <p>Торжественная линейка, посвященная началу учебного года, состоится 1 сентября в 9:00</p>
+                        <a href="#" class="btn" style="margin-top: 15px; padding: 8px 20px;">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?ixlib=rb-4.0.3" alt="Новость" class="news-image">
+                    <div class="news-content">
+                        <span class="news-date"><i class="far fa-calendar-alt"></i> 5 сентября 2023</span>
+                        <h3>Школьная олимпиада</h3>
+                        <p>Стартует школьный этап всероссийской олимпиады школьников по всем предметам</p>
+                        <a href="#" class="btn" style="margin-top: 15px; padding: 8px 20px;">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p>г. Истра, ул. Школьная, д. 15</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <p>+7 (495) 123-45-67</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p>info@schkola2-istra.ru</p>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <p>Пн-Пт: 8:00 - 18:00<br>Сб: 9:00 - 15:00<br>Вс: выходной</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Отправить сообщение</h3>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Ваше имя">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Ваш email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea class="form-input" placeholder="Ваше сообщение" rows="5"></textarea>
+                    </div>
+                    
+                    <button class="btn">Отправить сообщение</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">Школа №2 г. Истра</div>
+                    <p>Демонстрационный сайт. Официальный сайт: <a href="https://schkola2-istra.edumsko.ru/" style="color: #93c5fd;">schkola2-istra.edumsko.ru</a></p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Полезные ссылки</h3>
+                    <ul>
+                        <li><a href="#">Электронный дневник</a></li>
+                        <li><a href="#">Расписание уроков</a></li>
+                        <li><a href="#">Подготовка к ЕГЭ</a></li>
+                        <li><a href="#">Школьная столовая</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Родителям</h3>
+                    <ul>
+                        <li><a href="#">Прием в школу</a></li>
+                        <li><a href="#">Родительский комитет</a></li>
+                        <li><a href="#">Психологическая помощь</a></li>
+                        <li><a href="#">Вопрос-ответ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Ученикам</h3>
+                    <ul>
+                        <li><a href="#">Олимпиады</a></li>
+                        <li><a href="#">Кружки и секции</a></li>
+                        <li><a href="#">Школьная газета</a></li>
+                        <li><a href="#">Библиотека</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2025 Демо-сайт Школы №2 г. Истра. Все права на оригинальный контент принадлежат МОУ СОШ №2 г. Истра.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
